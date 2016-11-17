@@ -9,7 +9,9 @@
 
 
 ``` java
-public static void main
+public static void main(){
+  this.
+}
   
 ```
 
