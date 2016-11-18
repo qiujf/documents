@@ -78,9 +78,15 @@ Activiti Engine API提供了以下的接口
 
 
 
-### E6: 流程之间的交互
+### E6: 流程之间的交互, Human Task不仅仅是Human Task
 
-流程间的交互可以通过传变量，调用Human task的方法来交互。
+流程间的交互可以通过传变量，调用Human task的方法来交互。Activiti流程中的Human Task在现实中不一定必须由真实的用户来触发，很多时候系统也可以去调用complete Human Task, 这也给我们实现流程的自动交互提供了一种方式。
+
+
+
+### E7: Signal, Message 也可以用于流程交互
+
+流程之间的通信，还有一个方便的作法是利用Singal  或 Message的机制来实现流程。
 
 
 
